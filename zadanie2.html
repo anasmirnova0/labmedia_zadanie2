@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+    <link rel="stylesheet" href="css/style_zadanie2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__block">
+                <a href="" class="logo"><img src="img/1.png" alt="logo" class="logo__img"></a>
+                <p class="header__text">Текст</p>
+            </div>
+            
+        </div>
+    </header>
+    <div class="container">
+        <div class="line">
+            <div class="line__one"></div>
+            <div class="line__two"></div>
+            <div class="line__three"></div>
+        </div> 
+    </div>
+    <main class="main">
+        <div class="container">
+            <h1 class="main__text">Слайдер</h1>
+        </div>
+    </main>
+
+    <section>
+      <div class="container">
+        <div class="slider" >
+          <div class="mySlides slider__one">
+              <img src="img/8 1.png" alt="" class="slider__one_img">
+              <div class="slider__one_text">Текст 1</div>
+          </div>
+          <div class="mySlides slider__two">
+            <img src="img/9.png" alt="" class="slider__one_img">
+            <div class="slider__one_text">Текст 2</div>
+          </div>
+          <div class="mySlides slider__three">
+            <img src="img/10 1.png" alt="" class="slider__one_img">
+            <div class="slider__one_text">Текст 3</div>
+          </div>
+          <div class="mySlides slider__four">
+            <img src="img/11 1.png" alt="" class="slider__one_img">
+            <div class="slider__one_text">Текст 4</div>
+          </div>
+          <div class="slider__switch">
+            <a class="pref" onclick="plusSlides(-1)">&#10229;</a>
+
+            <div class="slider__switch_dot">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+
+            <a class="next" onclick="plusSlides(1)">&#10230;</a>
+          </div>
+          
+        </div>
+        <div class="form__container">
+            <button type="button" id="button" class="form__container_input" disabled>Продолжить</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script_zadanie2.js"></script>
+
+    
+    
+
+    <div class="container">
+        <div class="line">
+            <div class="line__four"></div>
+            <div class="line__five"></div>
+        </div> 
+    </div>
+</body>
+</html>
